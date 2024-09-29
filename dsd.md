@@ -1,7 +1,9 @@
-| หัวข้อ 1      | หัวข้อ 2     | หัวข้อ 3     |
-|---------------|---------------|--------------|
-| ข้อมูล 1      | ข้อมูล 2      | ข้อมูล 3     |
-| ข้อมูล A      | ข้อมูล B      | ข้อมูล C     |
-| ข้อมูล X      | ข้อมูล Y      | ข้อมูล Z     |
+| FIELD      | TYPE     | NULL     | KEY     | Default     | EXTRA     |
+|---------------|---------------|--------------||--------------||--------------|
+| fund_id      | int(11)     | NO    | PRI     | NULL    || AUTO_INCREMENT    |
+| title      | varchar(50)     | NO     | NULL     |      |
+| Description      | varchar(3500)      | YES     | NULL      |      |
+| goal_amount | int(11)      | NO     | NULL      |     |
+| raised_amount      | int(11)      | NO     | 0     |     |
 
 ![image](https://github.com/user-attachments/assets/a461290c-d312-4bcf-a5d4-799a539ef28c)
